@@ -1,4 +1,5 @@
-const envConfig = require("./environment.json");
+const fs = require('fs');
+
 const CONFIG_KEYS = {
     FOLDER_PATH: "folderPath",
     SPRITE_SHEET_PATH: "spriteSheetPath",
