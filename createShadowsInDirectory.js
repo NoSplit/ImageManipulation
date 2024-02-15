@@ -1,7 +1,6 @@
 const fs = require('fs').promises;
 const path = require('path');
 const im = require('imagemagick');
-const {join} = require("path");
 
 // Update these paths based on your ImageMagick installation
 im.convert.path = `C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe`;

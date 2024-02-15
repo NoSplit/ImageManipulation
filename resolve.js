@@ -1,5 +1,4 @@
 // get the config from target path if it exists otherwise use the default config in root
-
 const fs = require('fs');
 const path = require('path');
 
